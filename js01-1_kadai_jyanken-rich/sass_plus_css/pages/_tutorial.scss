@@ -1,0 +1,34 @@
+@use "../base/variables" as v;
+@use "../base/responsive" as r;
+
+
+/*---------------------------------
+ tutorialの記述
+---------------------------------*/
+.tutorial {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    &__inner {
+        width: 70%;
+        height: 70vh;
+    }
+    &__heading {
+        color: black;
+        text-align: center;
+        @include r.font-size(48);
+    }
+    &__text {
+        @include r.font-size(28);
+        margin-top: 100px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    &__button-area {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
