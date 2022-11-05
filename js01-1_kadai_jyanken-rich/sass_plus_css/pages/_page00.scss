@@ -6,7 +6,7 @@
  page00の記述
 ---------------------------------*/
 .page00 {
-    background-image: url(../../img/pages/page00_img01.jpg);
+    background-image: url(../img/pages/page00_img01.jpg);
     background-size: cover;
     background-position: left;
     width: 100%;
@@ -140,15 +140,20 @@
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
+        &-heading {
+            @include r.font-size(32);
+        }
     }
     &__card-choice {
         &-heading {
             text-align: center;
+            @include r.font-size(20);
         }
     }
     &__entry {
         &-heading {
             text-align: center;
+            @include r.font-size(20);
         }
     }
     &__inner {
@@ -159,6 +164,7 @@
         width: 80%;
         height: 200px;
         margin: 0 auto;
+        background-color: rgba(0,0,0);
     }
     &__button-area {
         position: absolute;

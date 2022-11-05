@@ -491,7 +491,7 @@ a.button-border-gradient {
  first-pageの記述
 ---------------------------------*/
 .first-page {
-  background-image: url(../../img/first-page_img01.jpg);
+  background-image: url(../img/pages/first-page_img01.jpg);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -671,7 +671,7 @@ a.button-border-gradient {
  page00の記述
 ---------------------------------*/
 .page00 {
-  background-image: url(../../img/pages/page00_img01.jpg);
+  background-image: url(../img/pages/page00_img01.jpg);
   background-size: cover;
   background-position: left;
   width: 100%;
@@ -779,11 +779,16 @@ a.button-border-gradient {
   justify-content: space-around;
   align-items: center;
 }
+.page00__words-and-deeds-heading {
+  font-size: 3.2rem;
+}
 .page00__card-choice-heading {
   text-align: center;
+  font-size: 2rem;
 }
 .page00__entry-heading {
   text-align: center;
+  font-size: 2rem;
 }
 .page00__inner {
   padding-top: 575px;
@@ -793,6 +798,7 @@ a.button-border-gradient {
   width: 80%;
   height: 200px;
   margin: 0 auto;
+  background-color: rgb(0, 0, 0);
 }
 .page00__button-area {
   position: absolute;

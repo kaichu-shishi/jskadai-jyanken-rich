@@ -27,7 +27,9 @@ class Game {
 	//メインループ
 	_main() {
 		//背景を黒く塗りつぶす
-        this.ctx.fillStyle = "#000";
+        // this.ctx.fillStyle = "#000";
+		// this.ctx.globalAlpha = 0.5;//文字のみかかった
+		// this.ctx.globalAlpha = 0.5;//文字のみかかった
 		// this.ctx.fillStyle = 'rgba(0,0,0,0.5)';
 		this.ctx.fillRect( 0, 0, this.width, this.height );
 
